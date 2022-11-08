@@ -1,6 +1,6 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'http://localhost:3000/cleanfolio',
+  homepage: 'https://ninadc32.github.io/',
   title: 'NC.',
 }
 
