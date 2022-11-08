@@ -22,7 +22,7 @@ const educations = [
   {
     collegeName: 'SIES Graduate School of Technology',
     degree: 'Bachelors of Engineering in Computer Engineering',
-    description: '- I have studied software engineering subjects like DS, Algorithms, DBMS, OOPM, OS, ML, Web Design, etc.\n- I was part of the college\'s coding team. We particpated in ICPC (2019 & 2020) and reached Asia Regionals both times.\n- Organized multiple technical events, workshops, and national-level coding competitions as part of CodeChef Campus Chapter.\n- I was selected for college scholarship which is given to the student achieving top rank in college.',
+    description: '- I have studied software engineering subjects like DS, Algorithms, DBMS, OOPM, OS, ML, Web Design, etc.\n- I was part of the college\'s coding team. We particpated in ICPC (2019 & 2020) and reached Asia Regionals both times.\n- Organized multiple technical events, workshops, and national-level coding competitions as part of CodeChef Campus Chapter.\n- Received scholarship in First Year for achieving 1st rank in college university exams.',
     GPA: 'Grade: 9.19 / 10',
     duration: 'Aug 2017 - Jul 2021',
     logoLink: 'https://media-exp1.licdn.com/dms/image/C4D0BAQG4hhq2nDsOqQ/company-logo_200_200/0/1631888927941?e=1675900800&v=beta&t=lOhB-FoFZ4drKy1-kZym5bHwDh2VpkBhPx8W-S_27Wo'
@@ -34,14 +34,14 @@ const experiences = [
     companyName: 'Morgan Stanley',
     designation: 'Software Development Consultant',
     duration: 'Nov 2021 - Present',
-    description: '- Developed and maintained the backend for 5+ applications with .NET Framework and Microsoft SQL server.\n- Worked on Resiliency Automation with Chaos Monkey on Springboot Scala application having Kafka, Message Queues, and REST APIs as microservices.\n- Worked on the Actimize tool to create and update application workflows and frontend views.\n- Created Python scripts for MSSQL Database comparisons and implemented Jenkins jobs to automate the process.\n- Utilized Mockito and PowerMock for unit test case creation of legacy applications in Java.',
+    description: '- Worked on Resiliency Automation with Chaos Monkey on Springboot Scala application having Kafka, Message Queues, and REST APIs as microservices.\n- Created Python scripts for MSSQL Database comparisons and implemented Jenkins jobs to automate the process.\n- Developed and maintained the backend for 5+ applications with .NET Framework and Microsoft SQL server.\n- Worked on the Actimize tool to create and update application workflows and frontend views.\n- Utilized Mockito and PowerMock for unit test case creation of legacy applications in Java.',
     logoLink: 'https://media-exp1.licdn.com/dms/image/C560BAQHH8JvJbc-i3g/company-logo_200_200/0/1654720854761?e=1675900800&v=beta&t=E27ZSc5MJmPYa6L0c9ZBeMUxUKu-SHA9IpWtRfZsx8o'
   },
   {
     companyName: 'Xoriant',
     designation: 'Software Engineer',
     duration: 'Jul 2021 - Present',
-    description: '- Completed training in Python, Java, HTML, CSS, JavaScript, and ReactJs\n- Contingent at Morgan Stanley as a Software Development Consultant',
+    description: '- Completed training in Python, Java, HTML, CSS, JavaScript, and ReactJs.\n- Contingent at Morgan Stanley as a Software Development Consultant.',
     logoLink: 'https://media-exp1.licdn.com/dms/image/C4D0BAQGE__5cO8jPBA/company-logo_200_200/0/1658219904878?e=1675900800&v=beta&t=i61b9cmPF9hYxNPpqWFC8iqHRD9T5f3OteUjClZQC5A'
   },
   {

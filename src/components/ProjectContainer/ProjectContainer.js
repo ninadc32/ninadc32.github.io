@@ -27,16 +27,6 @@ const ProjectContainer = ({ project }) => (
         <GitHubIcon />
       </a>
     )}
-
-    {project.livePreview && (
-      <a
-        href={project.livePreview}
-        aria-label='live preview'
-        className='link link--icon'
-      >
-        <LaunchIcon />
-      </a>
-    )}
   </div>
 )
 
