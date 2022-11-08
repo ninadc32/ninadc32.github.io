@@ -42,16 +42,18 @@
 
 .work-designation{
     margin: 1% 0;
+    font-size: larger;
 }
 
 .work-companyName{
     margin: 1% 0;
+    font-size: medium;
 }
 
 .work-description{
     margin: 1% 0;
     white-space: pre-wrap;
-    font-size: 90%;
+    font-size: smaller;
 }
 
 .work-body-header-duration{
@@ -61,7 +63,7 @@
 
 .work-duration{
     font-weight: 100;
-    font-size: medium;
+    font-size: small;
     font-style: italic;
 }
 

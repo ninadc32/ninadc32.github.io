@@ -3,8 +3,15 @@
   flex-direction: row;
   justify-content:space-between;
   width: 100%!important;
+  box-shadow: var(--shadow);
+  transition: transform 0.2s linear;
+  padding-bottom: 3em;
   /* margin-left: 3em;
   margin-right: 3em; */
+}
+
+.Parent:hover{
+  transform: translateY(-7px);
 }
 
 .about {
@@ -52,6 +59,7 @@
   margin-right: 3em;
   height: 100%;
   overflow: hidden;
+  /* max-width: 30%!important; */
 }
 
 .photo {
@@ -93,6 +101,20 @@
 @media (max-width: 600px) {
   .about__contact{
     justify-content: center;
+  }
+}
+
+@media (max-width: 450px) {
+  .about__name-out {
+    font-size: 200%;
+    /* white-space: nowrap; */
+  }
+}
+
+@media (max-width: 450px) {
+  .about__role {
+    font-size: 150%;
+    /* white-space: nowrap; */
   }
 }
 

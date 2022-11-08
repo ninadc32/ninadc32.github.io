@@ -42,16 +42,18 @@
 
 .degree-collegeName{
     margin: 1% 0;
+    font-size: larger;
 }
 
 .degree-name{
     margin: 1% 0;
+    font-size: medium;
 }
 
 .degree-description{
     margin: 1% 0;
     white-space: pre-wrap;
-    font-size: 90%;
+    font-size: smaller;
 }
 
 .degree-body-header-duration{
@@ -61,13 +63,13 @@
 
 .degree-duration{
     font-weight: 100;
-    font-size: medium;
+    font-size: small;
     font-style: italic;
 }
 
 .degree-gpa{
     font-weight: 100;
-    font-size: 90%;
+    font-size: small;
     font-style: italic;
 }
 
