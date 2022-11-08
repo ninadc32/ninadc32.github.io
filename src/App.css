@@ -5,6 +5,10 @@
   background-color: var(--clr-bg);
 }
 
+#top{
+  margin: 0;
+}
+
 .light {
   --clr-bg: #fcfcfc;
   --clr-bg-alt: #fff;
