@@ -64,8 +64,8 @@ const About = () => {
           )}
         </div>
       </div>
-      <div className='photo'>
-        <img src="https://media-exp1.licdn.com/dms/image/C4D03AQGovcePZ1qPRA/profile-displayphoto-shrink_400_400/0/1663772330619?e=1673481600&v=beta&t=ajjWR-lNf05Ktw3E4gLKz05Byg7BwRsaNJfIkOqDGdk" width="100%" alt="Ninad Chavan"/>
+      <div className='photo-div'>
+        <img src="https://media-exp1.licdn.com/dms/image/C4D03AQGovcePZ1qPRA/profile-displayphoto-shrink_400_400/0/1663772330619?e=1673481600&v=beta&t=ajjWR-lNf05Ktw3E4gLKz05Byg7BwRsaNJfIkOqDGdk" className="photo" alt="Ninad Chavan"/>
         {/* <img src="https://media-exp1.licdn.com/dms/image/C4D03AQGovcePZ1qPRA/profile-displayphoto-shrink_200_200/0/1663772330619?e=2147483647&v=beta&t=ffAqV8naloGTSK-o9YgTtxO_XVfg7CyhfHLMxJ6fDIw" width="00%" alt="Ninad Chavan"/> */}
       </div>
     </div>
