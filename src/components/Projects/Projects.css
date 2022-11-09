@@ -2,6 +2,6 @@
   width: 100%;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(2, minmax(18em, 1fr));
+  grid-template-columns: repeat(2, minmax(0em, 1fr));
   grid-gap: 1em;
 }
