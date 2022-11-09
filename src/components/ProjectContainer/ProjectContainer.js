@@ -5,7 +5,7 @@ import './ProjectContainer.css'
 
 const ProjectContainer = ({ project }) => (
   <div className='project'>
-    <h3>{project.name}</h3>
+    <h3 className='project__name'>{project.name}</h3>
 
     <p className='project__description'>{project.description}</p>
     {project.stack && (
@@ -21,6 +21,8 @@ const ProjectContainer = ({ project }) => (
     {project.sourceCode && (
       <a
         href={project.sourceCode}
+        target="_blank"
+        rel="noopener noreferrer"
         aria-label='source code'
         className='link link--icon'
       >

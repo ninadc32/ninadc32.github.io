@@ -2,12 +2,13 @@
     display: flex;
     flex-direction: row;
     box-shadow: var(--shadow);
-    transition: transform 0.2s linear;
+    transition: transform 0.2s linear, color .6s ease;
     margin: 2% auto;
 }
 
 .work-card:hover{
     transform: translateY(-7px);
+    --clr-headings: var(--clr-primary);
 }
 
 .work-card-img{
@@ -43,11 +44,13 @@
 .work-designation{
     margin: 1% 0;
     font-size: larger;
+    color: var(--clr-headings);
 }
 
 .work-companyName{
     margin: 1% 0;
     font-size: medium;
+    color: var(--clr-headings);
 }
 
 .work-description{

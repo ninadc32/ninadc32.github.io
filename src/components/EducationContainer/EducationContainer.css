@@ -2,12 +2,13 @@
     display: flex;
     flex-direction: row;
     box-shadow: var(--shadow);
-    transition: transform 0.2s linear;
+    transition: transform 0.2s linear, color .6s ease;
     margin: 2% auto;
 }
 
 .degree-card:hover{
     transform: translateY(-7px);
+    --clr-headings: var(--clr-primary);
 }
 
 .degree-card-img{
@@ -43,11 +44,13 @@
 .degree-collegeName{
     margin: 1% 0;
     font-size: larger;
+    color: var(--clr-headings);
 }
 
 .degree-name{
     margin: 1% 0;
     font-size: medium;
+    color: var(--clr-headings);
 }
 
 .degree-description{

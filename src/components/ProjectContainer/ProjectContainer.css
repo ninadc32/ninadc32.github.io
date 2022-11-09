@@ -3,11 +3,16 @@
   margin: 0 auto;
   text-align: center;
   box-shadow: var(--shadow);
-  transition: transform 0.2s linear;
+  transition: transform 0.2s linear, color .6s ease;
 }
 
 .project:hover {
   transform: translateY(-7px);
+  --clr-headings: var(--clr-primary);
+}
+
+.project__name {
+  color: var(--clr-headings);
 }
 
 .project__description {
