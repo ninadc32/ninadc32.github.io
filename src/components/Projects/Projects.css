@@ -5,3 +5,13 @@
   grid-template-columns: repeat(2, minmax(0em, 1fr));
   grid-gap: 1em;
 }
+
+@media (max-width: 1000px) {
+  .projects__grid {
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0em, 1fr));
+    grid-gap: 1em;
+  }
+}

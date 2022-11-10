@@ -1,7 +1,7 @@
 .project {
   padding: 2em;
   margin: 0 auto;
-  text-align: center;
+  /* text-align: center; */
   box-shadow: var(--shadow);
   transition: transform 0.2s linear, color .6s ease;
 }
@@ -22,7 +22,7 @@
 .project__stack {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  /* justify-content: center; */
   margin: 1.2em 0;
 }
 
