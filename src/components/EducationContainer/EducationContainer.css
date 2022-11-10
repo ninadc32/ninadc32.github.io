@@ -45,12 +45,14 @@
     margin: 1% 0;
     font-size: larger;
     color: var(--clr-headings);
+    transition: color .5s ease;
 }
 
 .degree-name{
     margin: 1% 0;
     font-size: medium;
     color: var(--clr-headings);
+    transition: color .5s ease;
 }
 
 .degree-description{

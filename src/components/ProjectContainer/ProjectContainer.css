@@ -3,7 +3,7 @@
   margin: 0 auto;
   /* text-align: center; */
   box-shadow: var(--shadow);
-  transition: transform 0.2s linear, color .6s ease;
+  transition: transform 0.2s linear;
 }
 
 .project:hover {
@@ -13,6 +13,7 @@
 
 .project__name {
   color: var(--clr-headings);
+  transition: color .5s ease;
 }
 
 .project__description {

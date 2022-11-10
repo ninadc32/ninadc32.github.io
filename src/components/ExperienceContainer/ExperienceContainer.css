@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     box-shadow: var(--shadow);
-    transition: transform 0.2s linear, color .6s ease;
+    transition: transform 0.2s linear;
     margin: 2% auto;
 }
 
@@ -45,12 +45,14 @@
     margin: 1% 0;
     font-size: larger;
     color: var(--clr-headings);
+    transition: color .5s ease;
 }
 
 .work-companyName{
     margin: 1% 0;
     font-size: medium;
     color: var(--clr-headings);
+    transition: color .5s ease;
 }
 
 .work-description{

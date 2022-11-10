@@ -11,7 +11,7 @@ const About = () => {
       <div className='about'>
         {name && (
           <h1 className='about__name-out'>
-            Hi, I am <br /><span className='about__name-in'>{name}.</span>
+            Hi, I am <span className='about__name-in'>{name}.</span>
           </h1>
         )}
 
@@ -64,10 +64,11 @@ const About = () => {
           )}
         </div>
       </div>
-      <div className='photo-div'>
-        <img src="https://media-exp1.licdn.com/dms/image/C4D03AQGovcePZ1qPRA/profile-displayphoto-shrink_400_400/0/1663772330619?e=1673481600&v=beta&t=ajjWR-lNf05Ktw3E4gLKz05Byg7BwRsaNJfIkOqDGdk" className="photo" alt="Ninad Chavan"/>
+      {/* <div className='photo-div'> */}
+        {/* <img src="https://i.imgur.com/F4TbXfl.jpeg" className="photo" alt="Ninad Chavan"/> */}
+        {/* <img src="https://media-exp1.licdn.com/dms/image/C4D03AQGovcePZ1qPRA/profile-displayphoto-shrink_400_400/0/1663772330619?e=1673481600&v=beta&t=ajjWR-lNf05Ktw3E4gLKz05Byg7BwRsaNJfIkOqDGdk" className="photo" alt="Ninad Chavan"/> */}
         {/* <img src="https://media-exp1.licdn.com/dms/image/C4D03AQGovcePZ1qPRA/profile-displayphoto-shrink_200_200/0/1663772330619?e=2147483647&v=beta&t=ffAqV8naloGTSK-o9YgTtxO_XVfg7CyhfHLMxJ6fDIw" width="00%" alt="Ninad Chavan"/> */}
-      </div>
+      {/* </div> */}
     </div>
   )
 }
