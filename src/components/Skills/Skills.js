@@ -1,4 +1,5 @@
 import uniqid from 'uniqid'
+import { FaJs } from 'react-icons/fa';  
 import { skills } from '../../portfolio'
 import './Skills.css'
 
@@ -11,7 +12,8 @@ const Skills = () => {
       <ul className='skills__list'>
         {skills.map((skill) => (
           <li key={uniqid()} className='skills__list-item'>
-            {skill}
+            <FaJs className="skills__list-icons" />
+            <p className='skills__list-text'>{skill}</p>
           </li>
         ))}
       </ul>

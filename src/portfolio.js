@@ -9,7 +9,7 @@ const about = {
   name: 'Ninad Chavan',
   role: 'Software Engineer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+    'I like to tackle challenging problems and work out solutions for them.',
   resume: 'https://drive.google.com/file/d/1reEeLETBaG1UmL1VlkeHr1hEJCDoKBhU/view?usp=share_link',
   social: {
     linkedin: 'https://www.linkedin.com/in/ninadc32/',
