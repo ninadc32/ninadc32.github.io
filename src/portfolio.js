@@ -89,20 +89,21 @@ const projects = [
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
-  'Python',
-  'Java',
-  'C++',
-  'C#',
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'SQL',
-  'Flask',
-  'Pandas',
-  'Numpy',
-  'Actimize',
-  'Git',
-  'Jenkins'
+  ['SiPython', 'Python'],
+  ['SiAngular', 'AngularJS'],
+  ['SiHtml5', 'HTML'],
+  ['SiCss3', 'CSS'],
+  ['SiJavascript', 'JavaScript'],
+  ['SiReact', 'ReactJS'],
+  ['SiNpm', 'npm'],
+  ['SiMicrosoftsqlserver', 'SQL'],
+  ['SiCplusplus', 'C++'],
+  ['SiJava', 'Java'],
+  ['SiCsharp', 'C#'],
+  ['SiFlask', 'Flask'],
+  ['SiPandas', 'Pandas'],
+  ['SiNumpy', 'Numpy'],
+  ['SiGit', 'Git'],
 ]
 
 const contact = {
